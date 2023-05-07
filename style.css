@@ -505,7 +505,7 @@ a {
 
 /* Medium devices (between 577px and 768px) */
 @media (min-width: 577px) and (max-width: 768px) {
-  section ul {
+  /* section ul {
     width: 100%;
     margin: 10px 0;
   }
@@ -518,36 +518,450 @@ a {
     width: 100%;
     justify-content: center;
     margin-top: 10px;
-  }
-}
-
-/* Large devices (between 769px and 992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-  section ul {
-    justify-content: space-between;
-    margin: 0;
-  }
-
-  section ul li {
-    font-size: 14px;
-  }
-}
-
-/* Extra-large devices (greater than 992px) */
-@media (min-width: 993px) {
+  } */
   .navbar {
+    flex-wrap: wrap;
     justify-content: center;
   }
 
   section ul {
-    justify-content: space-around;
-    margin: 0 130px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   section ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .auth {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .login,
+  .signup {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .main-text {
+    position: absolute;
+    top: 20%;
+    font-size: 18px;
+  }
+
+  .visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+  }
+
+  .Sign-up {
+    font-size: 8px;
+    width: 100px;
+    padding: 8px;
+    margin-top: 100px;
+  }
+
+  .text-3 {
+    padding: 8px 0;
+    font-size: 13px;
+    text-align: center;
+  }
+  .business {
+    padding: 8px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding: 12px;
+    margin: 5px 0px;
+  }
+  .container-text {
+    text-align: center;
+    margin: 8px 0px;
+    padding: 6px;
     font-size: 15px;
   }
-  .auth {
-    margin-top: 0;
+  .flex-1 {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
   }
+  .icon-7 {
+    width: 60px;
+  }
+  .icons-7 {
+    width: 100%;
+  }
+  .icons-7 img:first-child {
+    height: 20px;
+  }
+
+  .white-text{
+    margin: 0;
+    padding-bottom:10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .one{
+    width: 10px;
+    height: 10px;
+    font-size: 12px;
+    border-radius: 6px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .counter{
+    height: 10px;
+    margin-top: 0;
+    padding-top: 8px;
+  }
+
+  .container-8{
+    height: 250px;
+  }
+
+  .container-8 .Sign-up{
+    width: 30%;
+    font-size: 12px;
+  }
+
+  .tc{
+    margin: 35px 20px;
+    line-height: 1.5;
+  }
+  .about-1 {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+
+  }
+  .about-2{
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+  }
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+
+  hr{
+    margin: 0;
+  }
+
+  .list-1 ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .list-2{
+    margin: 0;
+    padding: 0;
+  }
+  .list-2 ul{
+    margin: 0;
+    display: flex;
+    color: #2c2e2f;
+  }
+
+  .list-3 ul{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #2c2e2f;
+    font-size: 15px;
+  }
+
+  .text{
+    margin: 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+.navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  section ul li {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .auth {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .login,
+  .signup {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+
+  .main-text {
+    position: absolute;
+    top: 30%;
+    font-size: 22px;
+  }
+
+  .visible {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+  }
+
+  .Sign-up {
+    font-size: 8px;
+    width: 100px;
+    padding: 8px;
+    margin-top: 120px;
+  }
+
+  .text-3 {
+    font-size: 13px;
+    text-align: center;
+  }
+  .business {
+    padding: 8px;
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 0px;
+  }
+
+  h2 {
+    font-size: 32px;
+    padding: 12px;
+    margin: 5px 25px;
+  }
+  .container-text {
+    margin: 8px 25px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .flex-1 {
+    margin: 0 auto;
+    text-align:left;
+    width: 100%;
+  }
+  .container-btn{
+    margin: 0px 35px;
+  }
+  .icon-7 {
+    width: 150px;
+  }
+  .icons-7 {
+    width: 100%;
+  }
+  .icons-7 img:first-child {
+    height: 40px;
+  }
+
+  .white-text{
+    margin: 0;
+    padding-bottom:10px;
+    font-size: 20px;
+    width: 80%;
+  }
+  .one{
+    width: 15px;
+    height: 15px;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .counter{
+    height: 10px;
+    margin-top: 0;
+    padding-top: 8px;
+  }
+
+  .container-8{
+    height: 250px;
+  }
+
+  .container-8 .Sign-up{
+    width: 30%;
+    font-size: 12px;
+  }
+
+  .tc{
+    margin: 35px 20px;
+    line-height: 1.5;
+  }
+  .about-1 {
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+
+  }
+  .about-2{
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+  }
+  .footer{
+    margin: 0;
+    padding: 0;
+  }
+
+  hr{
+    margin: 0;
+  }
+
+  .list-1 ul{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 auto;
+  }
+  .list-2{
+    margin: 0;
+    padding: 0;
+  }
+  .list-2 ul{
+    margin: 0;
+    display: flex;
+    color: #2c2e2f;
+  }
+
+  .list-3 ul{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #2c2e2f;
+    font-size: 15px;
+  }
+
+  .text{
+    margin: 10px;
+  }
+}
+
+@media (min-width: 993px) {
+    .navbar {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    
+      section ul {
+        margin: 0;
+        padding: 0;
+      }
+    
+      section ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 12px;
+        padding: 5px;
+      }
+    
+      .auth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    
+      .login,
+      .signup {
+        width: 60%;
+        margin: 0 10px;
+        margin-bottom: 15px;
+      }
+    .main-text {
+        position: absolute;
+        top: 10%;
+        font-size: 32px;
+      }
+    
+      .visible {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        top: 15%;
+        left: 20%;
+        right: 20%;
+      }
+    
+      .Sign-up {
+        font-size: 14px;
+        width: 200px;
+        padding: 10px;
+        margin-top: 130px;
+      }
+
+      .third-container{
+        text-align: center;
+        padding: 12px;
+      }
+      .text-3{
+        font-size: 18px;
+      }
+
 }
