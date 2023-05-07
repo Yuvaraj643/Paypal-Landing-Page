@@ -919,7 +919,7 @@ a {
     .main-text {
         position: absolute;
         top: 10%;
-        font-size: 32px;
+        font-size: 40px;
       }
     
       .visible {
@@ -938,7 +938,7 @@ a {
         font-size: 14px;
         width: 200px;
         padding: 10px;
-        margin-top: 130px;
+        margin-top: 170px;
       }
 
       .third-container{
