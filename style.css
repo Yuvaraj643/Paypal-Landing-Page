@@ -945,7 +945,11 @@ a {
         padding: 12px;
       }
       .text-3{
-        font-size: 18px;
+        font-size: 25px;
+      }
+
+      .container-text{
+        font-size: 20px;
       }
 
 }
