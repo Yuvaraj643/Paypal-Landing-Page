@@ -746,19 +746,19 @@ a {
   }
 
   .Sign-up {
-    font-size: 8px;
+    font-size: 10px;
     width: 100px;
     padding: 8px;
     margin-top: 120px;
   }
 
   .text-3 {
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
   }
   .business {
     padding: 8px;
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 10px;
   }
 
@@ -951,5 +951,6 @@ a {
       .container-text{
         font-size: 20px;
       }
+
 
 }
