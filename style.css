@@ -475,17 +475,18 @@ a {
     text-align: center;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
-    padding: 0 auto;
+    margin: 0 auto;
+    padding-left: 0px;
   }
   .list-2{
     margin: 0;
     padding: 0;
   }
   .list-2 ul{
-    margin: 0;
     display: flex;
     color: #2c2e2f;
+    margin: 0 auto;
+    padding-left: 0px;
   }
 
   .list-3 ul{
